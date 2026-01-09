@@ -3,6 +3,8 @@ services:
         build:
             context: ./frontend
             dockerfile: Dockerfile
+            args:
+                VITE_API_URL: ${VITE_API_URL}
         volumes:
             - frontend_build:/app/dist
         command: echo "Frontend built successfully"
