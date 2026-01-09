@@ -1,0 +1,17 @@
+Django==4.2.0
+djangorestframework==3.14.0
+django-cors-headers==4.0.0
+requests==2.31.0
+python-dotenv==1.0.0
+gunicorn==21.2.0
+whitenoise==6.5.0
+Pillow==10.0.1
+django-filter
+logzero
+psycopg2-binary
+dj-database-url
+django-jazzmin
+django-celery-beat==2.8.0
+django-redis==5.4.0
+celery==5.5.2
+hiredis==3.3.0
