@@ -1,7 +1,7 @@
 services:
     frontend_builder:
         build:
-            context: ./frontend
+            context: ./Frontend
             dockerfile: Dockerfile
             args:
                 VITE_API_URL: ${VITE_API_URL}
